@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="BaunChatBot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BaunChatBot_jar</output-path>
+    <root id="root">
+      <element id="archive" name="BaunChatBot.jar">
+        <element id="module-output" name="BaunChatBot" />
+      </element>
+      <element id="library" level="project" name="jfoenix-9.0.10" />
+      <element id="library" level="project" name="javafx11" />
+      <element id="library" level="project" name="ikonli12" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ikonli12">
+    <CLASSES>
+      <root url="jar://D:/Java Libraries/ikonli-core-12.2.0.jar!/" />
+      <root url="jar://D:/Java Libraries/ikonli-fontawesome-pack-12.2.0.jar!/" />
+      <root url="jar://D:/Java Libraries/ikonli-fontawesome5-pack-12.2.0.jar!/" />
+      <root url="jar://D:/Java Libraries/ikonli-javafx-12.2.0.jar!/" />
+      <root url="jar://D:/Java Libraries/ikonli-materialdesign2-pack-12.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

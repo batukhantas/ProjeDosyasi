@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<AnchorPane fx:id="mainPane" prefHeight="703.0" prefWidth="1097.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.mainScreenController">
+   <children>
+      <GridPane layoutX="182.0" layoutY="166.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="85.0" minHeight="10.0" prefHeight="85.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ListView fx:id="chat_listView" prefHeight="200.0" prefWidth="200.0">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </ListView>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="55.0" prefWidth="2000.0" style="-fx-background-color: white; -fx-border-radius: 15; -fx-background-radius: 15; -fx-border-color: grey; -fx-border-width: 0.15;">
+                     <children>
+                        <JFXTextField fx:id="chat_textField" focusColor="WHITE" prefHeight="35.0" prefWidth="2000.0" promptText="Bir Mesaj Yazın" style="-fx-text-fill: #9988f2; -fx-prompt-text-fill: grey;" unFocusColor="WHITE">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXTextField>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <JFXButton contentDisplay="GRAPHIC_ONLY" minHeight="30.0" minWidth="54.0" onAction="#gonder" prefHeight="157.0" prefWidth="54.0" style="-fx-background-color: #00a884; -fx-background-radius: 10;">
+                     <graphic>
+                        <FontIcon iconColor="WHITE" iconLiteral="far-paper-plane" iconSize="25" />
+                     </graphic>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </JFXButton>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="15.0" left="10.0" top="15.0" />
+               </GridPane.margin>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

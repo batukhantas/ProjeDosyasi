@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: main.Main
+Class-Path: jfoenix-9.0.10.jar javafx-swt.jar javafx.base.jar javafx.con
+ trols.jar javafx.fxml.jar javafx.graphics.jar javafx.media.jar javafx.s
+ wing.jar javafx.web.jar ikonli-core-12.2.0.jar ikonli-fontawesome-pack-
+ 12.2.0.jar ikonli-fontawesome5-pack-12.2.0.jar ikonli-javafx-12.2.0.jar
+  ikonli-materialdesign2-pack-12.2.0.jar
+

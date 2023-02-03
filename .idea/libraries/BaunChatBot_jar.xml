@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="BaunChatBot_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx.fxml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/ikonli-fontawesome5-pack-12.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx.media.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/jfoenix-9.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx.swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/ikonli-core-12.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx.graphics.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx-swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/ikonli-materialdesign2-pack-12.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/BaunChatBot.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx.controls.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/ikonli-fontawesome-pack-12.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/ikonli-javafx-12.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BaunChatBot/out/artifacts/BaunChatBot_jar/javafx.web.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
